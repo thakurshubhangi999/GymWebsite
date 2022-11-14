@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: white;
+  margin: 0px;
+  padding: 0px;
+  background: url("img.jpg");
+  color: white;
+  background-repeat: no-repeat;
+  /* background-size: 1290px; */
+  background-size: cover;
+  background-position: center;
+}
+
+.left {
+  display: inline-block;
+  /* border: 2px solid red; */
+  position: absolute;
+  left: 60px;
+  top: 20px;
+}
+
+.left img {
+  width: 100px;
+  font-size: 1px;
+  text-align: center;
+  filter: invert(95%);
+}
+
+.left div {
+  line-height: 20px;
+  text-align: center;
+}
+
+.mid {
+  display: block;
+  width: 55%;
+  margin: 1px auto;
+  /* border: 2px solid green; */
+}
+
+.right {
+  position: absolute;
+  right: 20px;
+  top: 30px;
+  display: inline-block;
+  /* border: 2px solid yellow; */
+}
+
+.navbar {
+    position: relative;
+    top: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar li {
+  display: inline-block;
+  font-size: 25px;
+}
+
+.navbar li a {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  padding: 34px 24px;
+  
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+  text-decoration: underline;
+  color: rgb(64, 53, 212);
+}
+
+.btn {
+  margin: 0px 9px;
+  background-color: black;
+  color: white;
+  padding: 2px 24px;
+  border: 2px solid rgb(15, 15, 15);
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: rgb(64, 53, 212);
+}
+
+.container {
+  /* border: 2px solid white; */
+  margin: 100px 80px;
+  padding: 40px;
+  width: 33%;
+  border-radius: 28px;
+}
+
+.form-group input {
+  text-align: center;
+  display: block;
+  width: 400px;
+  padding: 5px;
+  border: 2px solid rgb(16, 1, 1);
+  margin: 11px auto;
+  font-size: 16px;
+  border-radius: 10px;
+}
+
+.container h1 {
+  text-align: center;
+}
+
+.container button {
+  display: block;
+  width: 63%;
+  margin: 20px auto;
+}
